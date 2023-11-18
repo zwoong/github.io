@@ -1,6 +1,5 @@
 ---
 title: Welcome To My World 🌏
-categories: [Blogging, Demo]
 tags: [블로그를 시작한 이유]
 pin: true
 image:
