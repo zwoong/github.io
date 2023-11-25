@@ -1,10 +1,10 @@
 ---
 title: Welcome To My World 🌏
 tags: [블로그를 시작한 이유]
-pin: true
+categories: [블로그를 시작한 이유]
 image:
   path: /assets/img/post/welcome_to_my_world/start_blog.jpg
-  alt: 작가 storyset</a> 출처 Freepik
+  alt: start_blog
 ---
 
 ## 간략한 자기소개
