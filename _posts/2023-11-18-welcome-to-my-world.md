@@ -1,7 +1,7 @@
 ---
 title: Welcome To My World 🌏
 tags: [블로그를 시작한 이유]
-categories: [블로그를 시작한 이유]
+categories: [zwoong, 블로그를 시작한 이유]
 image:
   path: /assets/img/post/welcome_to_my_world/start_blog.jpg
   alt: start_blog
