@@ -5,6 +5,7 @@ categories: [zwoong, 블로그를 시작한 이유]
 image:
   path: /assets/img/post/welcome_to_my_world/start_blog.jpg
   alt: start_blog
+date: 2023-11-18 01:52 +0900
 ---
 
 ## 간략한 자기소개
