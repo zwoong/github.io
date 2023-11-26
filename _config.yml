@@ -16,10 +16,10 @@ timezone: Asia/Seoul
 
 title: zwoong's Blog # the main title
 
-tagline: Oops! I Did It Again # it will display as the sub-title
+tagline: Welcome To My World! # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Oops! I Did It Again
+  Welcome To My World!
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
