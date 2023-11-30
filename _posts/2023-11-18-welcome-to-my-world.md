@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Welcome To My World 🌏
 tags: [블로그를 시작한 이유]
 categories: [zwoong, 블로그를 시작한 이유]
