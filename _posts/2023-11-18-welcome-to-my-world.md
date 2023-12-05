@@ -4,7 +4,7 @@ title: Welcome To My World 🌏
 tags: [블로그를 시작한 이유]
 categories: [zwoong, 블로그를 시작한 이유]
 image:
-  path: /assets/img/post/welcome_to_my_world/start_blog.jpg
+  path: /assets/img/post/zwoong/start_blog.jpg
   alt: start_blog
 date: 2023-11-18 01:52 +0900
 ---
