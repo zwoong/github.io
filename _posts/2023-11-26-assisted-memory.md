@@ -26,7 +26,7 @@ date: 2023-11-26 10:17 +0900
 
 #### HDD(Hard Disk Drive)
 
-![HDD](/assets/img/post/computer_architecture/hdd.jpg){: width="500" height="300 .normal }
+![hdd](/assets/img/post/computer_architecture/hdd.jpg){: width="500" height="300 .normal }
 
 - **구성요소**
   - **디스크(Platter)**
