@@ -4,8 +4,8 @@ title: 컴퓨터의 핵심 부품 - 보조기억장치
 tags: [컴퓨터 구조, 컴퓨터의 핵심 부품, 보조기억장치]
 categories: [컴퓨터 구조, 컴퓨터의 핵심 부품, 보조기억장치]
 image:
-  path: /assets/img/post/computer_architecture/SSD.jpg
-  alt: SSD
+  path: /assets/img/post/computer_architecture/ssd.jpg
+  alt: ssd
 date: 2023-11-26 10:17 +0900
 ---
 
