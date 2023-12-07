@@ -4,7 +4,7 @@ title: 컴퓨터의 핵심 부품 - 보조기억장치
 tags: [컴퓨터 구조, 컴퓨터의 핵심 부품, 보조기억장치]
 categories: [컴퓨터 구조, 컴퓨터의 핵심 부품, 보조기억장치]
 image:
-  path: /assets/img/post/computer_architecture/ssd.jpg
+  path: /assets/img/post/computer-architecture/ssd.jpg
   alt: ssd
 date: 2023-11-26 10:17 +0900
 ---
@@ -26,7 +26,7 @@ date: 2023-11-26 10:17 +0900
 
 #### HDD(Hard Disk Drive)
 
-![hdd](/assets/img/post/computer_architecture/hdd.jpg){: width="500" height="300 .normal }
+![hdd](/assets/img/post/computer-architecture/hdd.jpg){: width="500" height="300 .normal }
 
 - **구성요소**
   - **디스크(Platter)**

@@ -4,7 +4,7 @@ title: 컴퓨터의 핵심 부품 - 메인보드
 tags: [컴퓨터 구조, 컴퓨터의 핵심 부품, 메인보드]
 categories: [컴퓨터 구조, 컴퓨터의 핵심 부품, 메인보드]
 image:
-  path: /assets/img/post/computer_architecture/main-board.jpg
+  path: /assets/img/post/computer-architecture/main-board.jpg
   alt: main-board
 date: 2023-11-26 11:30 +0900
 ---

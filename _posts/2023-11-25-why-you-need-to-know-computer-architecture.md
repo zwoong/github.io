@@ -4,8 +4,8 @@ title: 컴퓨터 구조를 알아야 하는 이유
 tags: [컴퓨터 구조, 컴퓨터 구조를 알아야 하는 이유]
 categories: [컴퓨터 구조, 컴퓨터 구조를 알아야 하는 이유]
 image:
-  path: /assets/img/post/computer_architecture/computer-architecture.png
-  alt: computer_architecture
+  path: /assets/img/post/computer-architecture/computer-architecture.png
+  alt: computer-architecture
 date: 2023-11-25 01:50 +0900
 ---
 
