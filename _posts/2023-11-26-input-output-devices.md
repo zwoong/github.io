@@ -4,7 +4,7 @@ title: 컴퓨터의 핵심 부품 - 입출력장치
 tags: [컴퓨터 구조, 컴퓨터의 핵심 부품, 입출력장치]
 categories: [컴퓨터 구조, 컴퓨터의 핵심 부품, 입출력장치]
 image:
-  path: /assets/img/post/computer_architecture/input-output-devices.jpg
+  path: /assets/img/post/computer-architecture/input-output-devices.jpg
   alt: input-output-devices
 date: 2023-11-26 10:52 +0900
 ---
