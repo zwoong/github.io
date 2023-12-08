@@ -32,7 +32,7 @@ date: 2023-11-26 11:30 +0900
 
 #### bus 종류
 
-![hdd](/assets/img/post/computer-architecture/bus.png){: width="500" height="300 .normal }
+![bus](/assets/img/post/computer-architecture/bus.png){: width="500" height="300 .normal }
 
 - **제어 버스**: CPU가 메모리와 입출력 장치에 제어 신호를 전달하는 데 사용된다.
 - **주소 버스**: CPU가 메모리 또는 다른 장치의 특정 위치를 지정하는 데 사용된다.
