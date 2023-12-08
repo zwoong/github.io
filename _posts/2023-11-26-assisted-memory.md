@@ -2,7 +2,7 @@
 layout: post
 title: 컴퓨터의 핵심 부품 - 보조기억장치
 tags: [컴퓨터 구조, 컴퓨터의 핵심 부품, 보조기억장치]
-categories: [컴퓨터 구조, 컴퓨터의 핵심 부품, 보조기억장치]
+categories: [컴퓨터 구조, 보조기억장치]
 image:
   path: /assets/img/post/computer-architecture/ssd.jpg
   alt: ssd
