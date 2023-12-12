@@ -32,7 +32,8 @@ CISC(Complex Instruction Set Computing)와 RISC(Reduced Instruction Set Computin
 ![cisc-vs-risc](/assets/img/post/computer-architecture/cisc-vs-risc.jpg){: width="800" height="200 }
 
 > CW(제어 워드): 각 명령어에는 다양한 제어 신호로 구성된 제어 워드가 포함되어 있다. 이러한 신호는 CPU의 다른 부분(예: ALU, 레지스터 등)에 해당 단계에 필요한 특정 작업을 수행하도록 지시한다. <br>
-> Program Memory: CPU의 명령을 저장하는 메모리이다.
+> Program Memory: CPU의 명령을 저장하는 메모리이다. <br>
+> Data path: 데이터 신호가 이동하는 CPU 내부 경로이다.
 
 ## CISC와 RISC 구성요소
 
