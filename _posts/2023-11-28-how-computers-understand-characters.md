@@ -51,7 +51,6 @@ date: 2023-11-28 22:44 +0900
 
 - **가변 길이**: [UTF-16](https://ko.wikipedia.org/wiki/UTF-16)도 가변 길이 인코딩이지만 가장 일반적인 문자에 2바이트를 사용하고 추가 문자([BMP](https://ko.wikipedia.org/wiki/%EA%B5%AD%EC%A0%9C_%EB%AC%B8%EC%9E%90_%EC%84%B8%ED%8A%B8) 내에서 표현되지 않는 문자)에 4바이트를 사용한다.
 - **ASCII의 경우 효율성이 낮음**: 주로 ASCII로 작성된 텍스트의 경우 **UTF-16은 문자당 최소 2바이트를 사용하므로 UTF-8보다 효율성이 떨어진다**.
-- **용도**: UTF-16은 Java 및 Windows 내부 API와 같이 유니코드가 초기에 채택된 환경에서 자주 사용된다. 이는 고정 크기 UTF-32와 가변 크기 UTF-8 사이의 절충안이다.
 
 #### UTF-32
 
@@ -78,7 +77,7 @@ date: 2023-11-28 22:44 +0900
 
 > 마지막으로 ASCII 문자 집합을 이용해 `hello`라는 문자를 인코딩하는 과정을 확인해 보자!
 
-![ascii-character-set](/assets/img/post/computer-architecture/ascii-character-set.png){: width="600" height="200 }
+![ascii-character-set](/assets/img/post/computer-architecture/ascii-character-set.png){: width="600" }
 
 1. **문자 매핑**: "hello"라는 단어의 각 문자는 해당 ASCII 값에 매핑된다. ASCII는 각 문자에 고유한 번호를 할당한다. <br>
    예를 들어 'h'는 104, 'e'는 101, 'l'은 108, 'o'는 111이다.
