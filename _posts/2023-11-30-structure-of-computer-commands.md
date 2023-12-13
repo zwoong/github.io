@@ -6,7 +6,7 @@ categories: [컴퓨터 구조, 컴퓨터 명령어의 구조]
 date: 2023-11-30 14:07 +0900
 ---
 
-컴퓨터에 "5와 3을 더해라!"라는 명령하게 되면 컴퓨터는 "무엇을", "어떻게 수행하라"와 같이 구분을 지어야 할 것 같은데, 어떻게 구분을 짓는 걸까? 🧐
+컴퓨터에 `5와 3을 더해라!`라는 명령을하게 되면 컴퓨터는 `무엇을`, `어떻게 수행하라`와 같이 구분을 지어야 할 것 같은데, 도대체 어떻게 구분을 짓는 걸까? 🧐
 
 ## 연산 코드와 피연산자
 
@@ -43,7 +43,7 @@ date: 2023-11-30 14:07 +0900
 
 #### 주소 지정 방식을 사용하는 이유
 
-- **공간 활용**: **상숫값(즉시 주소 지정)이 명령어에 직접 포함되므로 명령어가 길어지고 더 많은 메모리 공간을 사용**할 수 있다. 레지스터 또는 간접 주소 지정과 같은 주소 지정 방법을 사용하면 보다 컴팩트하고 메모리 효율적인 명령어를 사용할 수 있다.
+- **공간 활용**: **상숫값이 명령어에 직접 포함되면 명령어가 길어지고 더 많은 메모리 공간을 사용**할 수 있다. 레지스터 또는 간접 주소 지정과 같은 주소 지정 방법을 사용하면 보다 컴팩트하고 메모리 효율적인 명령어를 사용할 수 있다.
 - **코드 재사용성**: 주소 지정 방식을 통해 코드 재사용성과 모듈식 프로그래밍이 용이해진다.
 - **유연성과 동적 계산**: 종종 프로그램이 처리해야 하는 데이터를 미리 알 수 없으며 프로그램이 실행됨에 따라 변경될 수 있다. **간접 또는 인덱스 주소 지정과 같은 주소 지정 방법을 사용하면 프로그램이 런타임에만 알려진 동적 데이터로 작업**할 수 있다.
 
@@ -56,16 +56,16 @@ date: 2023-11-30 14:07 +0900
 - **Immediate Addressing**(즉시 주소 지정): 피연산자는 명령어 자체의 일부인 상숫값이다.
   - **장점**: **피연산자를 가져오는 데 추가 메모리 액세스가 필요하지 않으므로 속도가 빠르다**.
   - **단점**: 제한된 유연성으로 상숫값을 사용하는 작업에만 적합하다.
-    ![immediate-addressing](/assets/img/post/computer-architecture/immediate-addressing.png){: width="400" height="200 }
+    ![immediate-addressing](/assets/img/post/computer-architecture/immediate-addressing.png){: width="400" }
 - **Register Addressing**(레지스터 주소 지정): 피연산자는 CPU 내의 레지스터에 있다.
   - **장점**: 레지스터의 데이터에 액세스하는 것이 **일반적으로 메모리에 액세스하는 것보다 빠르다**.
   - **단점**: **레지스터 수가 제한되어 있어 복잡한 작업에 제약**이 될 수 있다.
-    ![register-addressing](/assets/img/post/computer-architecture/register-addressing.png){: width="500" height="200 }
+    ![register-addressing](/assets/img/post/computer-architecture/register-addressing.png){: width="500" }
 - **Direct Addressing**(직접 주소 지정): **메모리에 있는 데이터의 주소는 명령어의 일부로 제공**된다.
   - **장점**: 데이터의 정확한 메모리 주소가 알려져 있고 고정되어 있는 경우 유용하다.
   - **단점**: **메모리에 액세스해야 하므로 레지스터 주소 지정보다 느리다**.
-    ![rdirect-addressing](/assets/img/post/computer-architecture/direct-addressing.png){: width="500" height="200 }
+    ![rdirect-addressing](/assets/img/post/computer-architecture/direct-addressing.png){: width="500" }
 - **Indirect Addressing**(간접 주소 지정): 피연산자의 실제 주소가 저장되는 메모리 위치의 주소를 저장한다.
   - **장점**: 런타임 시 실제 메모리 주소가 변경될 수 있으므로 보다 동적인 데이터 처리가 가능하다.
   - **단점**: 데이터에 액세스하려면 두 번의 메모리 액세스가 필요하다. 하나는 실제 주소를 검색하고 다른 하나는 데이터에 액세스하기 위한 것이다. 이 추가 단계로 인해 프로그램 실행 속도가 느려질 수 있다.
-    ![indirect-addressing](/assets/img/post/computer-architecture/indirect-addressing.png){: width="500" height="200 }
+    ![indirect-addressing](/assets/img/post/computer-architecture/indirect-addressing.png){: width="500" }
