@@ -4,8 +4,8 @@ title: 운영체제를 알아야 하는 이유
 tags: [운영체제, 운영체제를 알아야 하는 이유]
 categories: [운영체제, 운영체제를 알아야 하는 이유]
 image:
-  path: /assets/img/post/operating-system/os.jpg
-  alt: os
+  path: /assets/img/post/operating-system/operating-system.png
+  alt: operating-system
 date: 2023-12-14 13:28 +0900
 ---
 
