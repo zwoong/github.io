@@ -6,17 +6,12 @@ categories: [컴퓨터 구조, 코어와 스레드]
 date: 2023-12-11 23:37 +0900
 ---
 
-![core-and-threads](/assets/img/post/computer-architecture/core-and-threads.png){: width="700" height="200 }
-
 ## Core(코어)
 
-컴퓨팅에서 "코어"라는 용어는 일반적으로 **명령 처리를 수행하는 컴퓨터의 주요 구성 요소인 중앙 처리 장치(CPU) 코어를 의미**한다. <br>
-CPU에는 하나 이상의 코어가 있을 수 있으며, 각 코어는 명령과 프로세스를 실행할 수 있다. 멀티 코어 프로세서의 개발은 컴퓨터 기술의 획기적인 발전을 가져왔으며, 이를 통해 보다 효율적이고 강력한 처리 기능이 가능해졌다.
+코어는 **일련의 명령을 실행할 수 있는 CPU(중앙 처리 장치) 내의 처리 장치**를 의미한다. <br>
+CPU에는 하나 이상의 코어가 있을 수 있으며, 각 코어는 명령과 프로세스(실행 중인 프로그램)를 실행할 수 있다.
 
-![core-cpu](/assets/img/post/computer-architecture/core-cpu.jpg){: width="700" height="200 }
-
-> 코어랑 CPU는 같은 거 아닌가? 🧐 <br>
-> 코어는 CPU의 일부이며 "코어"와 "CPU"는 서로 밀접하게 관련되어 있지만 동의어는 아니다.
+![core-and-threads](/assets/img/post/computer-architecture/core-and-threads.png){: width="700" }
 
 ### Core의 특징
 
@@ -28,11 +23,11 @@ CPU에는 하나 이상의 코어가 있을 수 있으며, 각 코어는 명령�
 
 ## thread(스레드)
 
-스레드는 운영 체제의 멀티태스킹 및 동시 실행과 관련된 기본 개념이며, 일반적으로 운영 체제의 일부인 **스케줄러에 의해 독립적으로 관리될 수 있게 프로그래밍된 명령의 가장 작은 시퀀스**이다.
+스레드는 운영 체제의 멀티태스킹 및 동시 실행과 관련된 기본 개념이며, 일반적으로 운영 체제의 일부인 **스케줄러에 의해 독립적으로 관리될 수 있게 프로그래밍된 명령의 가장 작은 시퀀스**(순서를 뜻하는 것으로, 몇 가지 작동을 어떤 기준에 따라 공간적 또는 시간적으로 순서를 정해 놓는 것)이다.
 
 ### thread의 특징
 
 - **프로세스 대 스레드**: **프로세스는 실행 중인 프로그램이며, 하나 이상의 스레드로 구성**된다. 프로세스에는 자체 메모리 공간이 있지만 스레드는 해당 공간과 파일 및 네트워크 연결과 같은 리소스를 공유한다. 이는 스레드를 완전히 분리된 프로세스보다 자원 관리 측면에서 더 효율적으로 만든다.
 - **멀티스레딩**: 동시에 둘 이상의 스레드에서 사용을 관리하는 CPU 또는 단일 프로세스의 기능이다.
 
-![single-thread-and-multi-thread](/assets/img/post/computer-architecture/single-thread-and-multi-thread.png){: width="700" height="200 }
+![single-thread-and-multi-thread](/assets/img/post/computer-architecture/single-thread-and-multi-thread.png){: width="700" }
