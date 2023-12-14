@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 운영체제란 무엇일까?
-tags: [운영체제, 운영체제란 무엇일까?]
-categories: [운영체제, 운영체제란 무엇일까?]
+title: 운영체제란 무엇인가?
+tags: [운영체제, 운영체제란 무엇인가?]
+categories: [운영체제, 운영체제란 무엇인가?]
 image:
   path: /assets/img/post/operating-system/os.jpg
   alt: os
