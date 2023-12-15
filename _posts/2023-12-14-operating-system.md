@@ -30,7 +30,7 @@ date: 2023-12-14 13:44 +0900
 
 - **시분할 운영체제(Time-Sharing Operating Systems)**
   - 예시: Unix, [Multics](https://ko.wikipedia.org/wiki/%EB%A9%80%ED%8B%B1%EC%8A%A4).
-  - 특징: 시**스템이 매우 짧은 시간 간격으로 여러 사용자의 작업을 빠르게 전환하며 처리하는 방식**을 의미한다. 이러한 처리 방식 때문에 사용자는 마치 여러 작업이 동시에 이루어지는 것처럼 느낀다.
+  - 특징: **시스템이 매우 짧은 시간 간격으로 여러 사용자의 작업을 빠르게 전환하며 처리하는 방식**을 의미한다. 이러한 처리 방식 때문에 사용자는 마치 여러 작업이 동시에 이루어지는 것처럼 느낀다.
 
 ![time-sharing-operating-systems](/assets/img/post/operating-system/time-sharing-operating-systems.png){: width="500" }
 
