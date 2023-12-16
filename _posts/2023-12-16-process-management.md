@@ -103,7 +103,12 @@ OS에서 프로세스 실행을 관리하고 [프로세스 간 컨텍스트 전�
   - 원리: **각각 고유한 예약 알고리즘을 사용하는 여러 개의 별도 대기열로 나눈다**. 프로세스는 우선순위, 메모리 요구 사항 또는 프로세스 유형과 같은 프로세스 속성에 따라 알맞은 대기열에 할당된다.
   - 장점: 프로세스가 잘 분류되면 효율적일 수 있다.
   - 단점: 프로세스가 대기열 간에 이동하지 않아 유연성이 떨어지고 비효율성이 발생할 수 있다.
+
+![multilevel-queue](/assets/img/post/operating-system/multilevel-queue.png){: width="400" }
+
 - **Multilevel Feedback Queue Scheduling(다단계 피드백 큐 스케줄링)**
   - 원리: **Multilevel Queue Scheduling과 유사하지만 프로세스는 동작 및 기간에 따라 대기열 간에 이동을 할 수 있다**. 이 전략을 사용하면 프로세스의 우선순위를 동적으로 변경할 수 있다.
   - 장점: 유연성이 뛰어나며, 기아를 방지하고 현재 동작에 따라 프로세스의 우선순위를 지정할 수 있다.
   - 단점: 구현이 복잡하고 유지 관리에 계산 비용이 많이 들 수 있다.
+
+![multilevel-feedback-queue](/assets/img/post/operating-system/multilevel-feedback-queue.png){: width="400" }
