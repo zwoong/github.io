@@ -84,20 +84,17 @@ OS에서 프로세스 실행을 관리하고 [프로세스 간 컨텍스트 전�
 ![priority](/assets/img/post/operating-system/priority.webp){: width="600" }
 
 - **Round Robin (RR)**
+
   - 원리: 프로세스가 도착한 순서대로 프로세스를 실행하지만, 정해진 시간에 의해 실행을 제한하며, **시간 할당량을 프로세스에 주고 할당된 시간 안에 완료되지 못한 프로세스는 준비 큐의 맨 뒤에 배치**되도록 한다.
   - 장점: 공정하고 단순하며, 모든 프로세스는 CPU를 동일하게 공유한다.
   - 단점: 성능은 시간 할당량의 길이에 따라 크게 영향을 받을 수 있다. 너무 짧은 시간을 할당할 경우 컨텍스트 전환이 자주 발생하여 오버헤드가 높아진다. 너무 긴 시간을 할당하면 프로세스에 평균 대기 시간이 증가한다.
-
-![round-robin](/assets/img/post/operating-system/round-robin.jpg){: width="500" .w-60 .left }
-
-<br>
 
 - **ARRIVAL TIME** : 각 프로세스가 도착하여 실행될 준비가 된 시간
 - **BURST TIME** : 각 프로세스가 실행을 완료하는 데 필요한 총 CPU 시간 <br>
   - Total: 총 버스트 시간을 표기
   - Remaining: 남은 버스트 시간을 표기
 
-<br><br><br><br><br>
+![round-robin](/assets/img/post/operating-system/round-robin.jpg){: width="600" }
 
 - **Multilevel Queue Scheduling(다단계 대기열 스케줄링)**
   - 원리: **각각 고유한 예약 알고리즘을 사용하는 여러 개의 별도 대기열로 나눈다**. 프로세스는 우선순위, 메모리 요구 사항 또는 프로세스 유형과 같은 프로세스 속성에 따라 알맞은 대기열에 할당된다.
