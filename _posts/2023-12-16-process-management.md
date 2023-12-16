@@ -3,6 +3,9 @@ layout: post
 title: 프로세스 관리
 tags: [운영체제, 프로세스 관리]
 categories: [운영체제, 프로세스 관리]
+image:
+  path: /assets/img/post/operating-system/process.jpeg
+  alt: process
 date: 2023-12-16 00:02 +0900
 ---
 

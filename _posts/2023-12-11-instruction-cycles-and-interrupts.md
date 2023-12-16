@@ -3,6 +3,9 @@ layout: post
 title: 명령어 사이클과 인터럽트
 tags: [컴퓨터 구조, 명령어 사이클과 인터럽트]
 categories: [컴퓨터 구조, 명령어 사이클과 인터럽트]
+image:
+  path: /assets/img/post/computer-architecture/interrupt.png
+  alt: interrupt
 date: 2023-12-11 22:50 +0900
 ---
 

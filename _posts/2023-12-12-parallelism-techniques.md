@@ -3,6 +3,9 @@ layout: post
 title: 병렬 처리 기법
 tags: [컴퓨터 구조, 병렬 처리 기법]
 categories: [컴퓨터 구조, 병렬 처리 기법]
+image:
+  path: /assets/img/post/computer-architecture/parallelism.png
+  alt: parallelism
 date: 2023-12-12 00:22 +0900
 ---
 

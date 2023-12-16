@@ -3,6 +3,9 @@ layout: post
 title: 메모리 관리
 tags: [운영체제, 메모리 관리]
 categories: [운영체제, 메모리 관리]
+image:
+  path: /assets/img/post/operating-system/memory.jpg
+  alt: memory
 date: 2023-12-16 14:05 +0900
 ---
 

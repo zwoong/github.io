@@ -3,6 +3,9 @@ layout: post
 title: 코어와 스레드
 tags: [컴퓨터 구조, 코어와 스레드]
 categories: [컴퓨터 구조, 코어와 스레드]
+image:
+  path: /assets/img/post/computer-architecture/core.png
+  alt: core
 date: 2023-12-11 23:37 +0900
 ---
 

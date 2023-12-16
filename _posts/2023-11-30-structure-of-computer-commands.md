@@ -3,6 +3,9 @@ layout: post
 title: 컴퓨터 명령어의 구조
 tags: [컴퓨터 구조, 컴퓨터 명령어의 구조]
 categories: [컴퓨터 구조, 컴퓨터 명령어의 구조]
+image:
+  path: /assets/img/post/computer-architecture/command.png
+  alt: command
 date: 2023-11-30 14:07 +0900
 ---
 
