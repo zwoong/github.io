@@ -24,7 +24,7 @@ date: 2023-12-14 13:44 +0900
 
 - **일괄 처리 운영체제(Batch Operating Systems)**
   - 예시: IBM의 초기 메인프레임 시스템 운영체제, 예를 들어 IBM OS/360.
-  - 특징: 사용자의 **작업을 일괄적으로 모아서 순차적으로 처리**한다. 사용자와의 직접적인 상호작용이 없는 환경에서 효율적이다.
+  - 특징: 사용자의 **작업을 일괄적으로 모아서 순차적으로 처리**한다.
 
 ![batch-operating-systems](/assets/img/post/operating-system/batch-operating-systems.png){: width="500" }
 
@@ -58,8 +58,8 @@ date: 2023-12-14 13:44 +0900
 ![real-time-operating-systems](/assets/img/post/operating-system/real-time-operating-systems.png){: width="600" }
 
 - **네트워크 운영체제(Network Operating Systems)**
-  - 예시: Novell NetWare, Windows Server.
-  - 특징: 네트워크 환경에서 자원을 공유하고 통신을 관리한다. 파일 서버, 프린터 서버 등의 네트워크 자원 관리에 적합하다.
+  - 예시: [Novell NetWare](https://ko.wikipedia.org/wiki/%EB%84%B7%EC%9B%A8%EC%96%B4), Windows Server.
+  - 특징: **네트워크 환경에서 자원을 공유하고 통신을 관리**한다. 파일 서버, 프린터 서버 등의 네트워크 자원 관리에 적합하다.
 
 ![network-operating-system](/assets/img/post/operating-system/network-operating-system.png){: width="600" }
 
