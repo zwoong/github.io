@@ -35,7 +35,7 @@ date: 2023-12-14 13:44 +0900
   - 예시: Unix, Multics.
   - 특징
     - **시스템이 매우 짧은 시간 간격으로 여러 사용자의 작업을 빠르게 전환하며 처리하는 방식**을 의미한다. 이러한 처리 방식 때문에 사용자는 마치 여러 작업이 동시에 이루어지는 것처럼 느낀다.
-    - CPU 시간은 작은 고정 시간 조각(일반적으로 밀리초)으로 나뉘며 각 사용자는 해당 시간 동안 CPU를 할당받는다
+    - CPU 시간은 작은 고정 시간 조각(일반적으로 밀리초)으로 나뉘며 각 사용자는 해당 시간 동안 CPU를 할당받는다.
 
 ![time-sharing-operating-systems](/assets/img/post/operating-system/time-sharing-operating-systems.png){: width="500" }
 
