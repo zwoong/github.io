@@ -29,7 +29,7 @@ date: 2023-12-14 13:44 +0900
 ![batch-operating-systems](/assets/img/post/operating-system/batch-operating-systems.png){: width="500" }
 
 - **시분할 운영체제(Time-Sharing Operating Systems)**
-  - 예시: Unix, [Multics](https://ko.wikipedia.org/wiki/%EB%A9%80%ED%8B%B1%EC%8A%A4).
+  - 예시: Unix, Multics.
   - 특징: **시스템이 매우 짧은 시간 간격으로 여러 사용자의 작업을 빠르게 전환하며 처리하는 방식**을 의미한다. 이러한 처리 방식 때문에 사용자는 마치 여러 작업이 동시에 이루어지는 것처럼 느낀다.
 
 ![time-sharing-operating-systems](/assets/img/post/operating-system/time-sharing-operating-systems.png){: width="500" }
@@ -48,7 +48,7 @@ date: 2023-12-14 13:44 +0900
 
 - **실시간 운영체제(Real-Time Operating Systems)**
 
-  - 예시: [VxWorks](https://ko.wikipedia.org/wiki/VxWorks), FreeRTOS.
+  - 예시: VxWorks, FreeRTOS.
   - 특징: **엄격한 시간 제약 조건을 만족시키는 것이 중요**한 응용 분야(예: 임베디드 시스템, 산업 제어 시스템)에서 사용된다. 실시간 처리와 빠른 반응 시간이 요구된다.
   - **종류**
     - **Hard Real Time Operating System**: **가장 엄격한 시간 제약**을 가진 작업에 사용된다. 처리 시간이 매우 중요하며, 시간 제약을 지키지 못하면 심각한 결과를 초래할 수 있다. 예를 들어, 항공기 제어 시스템이나 의료 장비 같은 곳에서 사용된다.
@@ -58,7 +58,7 @@ date: 2023-12-14 13:44 +0900
 ![real-time-operating-systems](/assets/img/post/operating-system/real-time-operating-systems.png){: width="600" }
 
 - **네트워크 운영체제(Network Operating Systems)**
-  - 예시: [Novell NetWare](https://ko.wikipedia.org/wiki/%EB%84%B7%EC%9B%A8%EC%96%B4), Windows Server.
+  - 예시: Novell NetWare, Windows Server.
   - 특징: **네트워크 환경에서 자원을 공유하고 통신을 관리**한다. 파일 서버, 프린터 서버 등의 네트워크 자원 관리에 적합하다.
 
 ![network-operating-system](/assets/img/post/operating-system/network-operating-system.png){: width="600" }
