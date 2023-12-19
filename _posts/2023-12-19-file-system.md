@@ -68,13 +68,13 @@ date: 2023-12-19 00:16 +0900
 
   - 파일의 모든 데이터가 **디스크 상에서 연속적인 공간에 저장**된다. 이 방법은 읽기와 쓰기가 빠르지만 단편화(기억 장치의 빈 공간 또는 자료가 여러 개의 조각으로 나뉘는 현상)문제를 일으킬 수 있다.
 
-![contiguous-allocation](/assets/img/post/operating-system/contiguous-allocation.png){: width="400" }
+![contiguous-allocation](/assets/img/post/operating-system/contiguous-allocation.png){: width="350" }
 
 - **연결 리스트 할당 (Linked List Allocation)**
 
   - 파일의 각 부분이 디스크의 다양한 위치에 저장되며, 각 부분은 다음 부분의 위치를 가리킨다. 단편화 문제를 줄일 수 있지만, 무작위 접근에는 비효율적이다.
 
-![linked-list-allocation](/assets/img/post/operating-system/linked-list-allocation.png){: width="400" }
+![linked-list-allocation](/assets/img/post/operating-system/linked-list-allocation.png){: width="350" }
 
 - **인덱스 할당 (Indexed Allocation)**
   - 인덱스 블록이 파일의 각 부분을 가리키는 방식으로, 무작위 접근이 가능하며 단편화 문제도 줄일 수 있다.
