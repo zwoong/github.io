@@ -44,4 +44,5 @@ date: 2023-12-20 13:26 +0900
 - **통신 보안**
   - **네트워크 보안**: 방화벽은 들어오고 나가는 네트워크 트래픽을 필터링하여, 불필요하거나 해로운 트래픽을 차단한다.
   - **데이터 보호**: **HTTPS 프로토콜은 웹 트래픽을 암호화**하여, 데이터가 전송 중에 도청되거나 변경되는 것을 방지한다.
-    ![https](/assets/img/post/operating-system/https.png){: width="600" }
+
+![https](/assets/img/post/operating-system/https.png)
