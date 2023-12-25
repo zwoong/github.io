@@ -23,42 +23,41 @@ date: 2023-12-14 13:44 +0900
 ## 운영체제의 종류
 
 - **일괄 처리 운영체제(Batch Operating Systems)**
-  - 예시: IBM의 초기 메인프레임 시스템 운영체제, 예를 들어 IBM OS/360.
-  - 특징
+  - **예시**: IBM의 초기 메인프레임 시스템 운영체제, 예를 들어 IBM OS/360.
+  - **특징**
     - 사용자의 **작업을 일괄적으로 모아서 순차적으로 처리**한다.
     - 주로 사용자 상호 작용보다는 작업 처리의 효율성을 위해 설계되었다.
-    - 자동화된 스케줄러를 사용하여 특정 시간이나 특정 조건에서 작업을 실행하는 경우가 많다.
+    - **자동화된 스케줄러를 사용하여 특정 시간이나 특정 조건에서 작업을 실행**하는 경우가 많다.
 
 ![batch-operating-systems](/assets/img/post/operating-system/batch-operating-systems.png){: width="500" }
 
 - **시분할 운영체제(Time-Sharing Operating Systems)**
-  - 예시: Unix, Multics.
-  - 특징
+  - **예시**: **Unix**, Multics.
+  - **특징**
     - **시스템이 매우 짧은 시간 간격으로 여러 사용자의 작업을 빠르게 전환하며 처리하는 방식**을 의미한다. 이러한 처리 방식 때문에 사용자는 마치 여러 작업이 동시에 이루어지는 것처럼 느낀다.
     - CPU 시간은 작은 고정 시간 조각(일반적으로 밀리초)으로 나뉘며 각 사용자는 해당 시간 동안 CPU를 할당받는다.
 
 ![time-sharing-operating-systems](/assets/img/post/operating-system/time-sharing-operating-systems.png){: width="500" }
 
 - **멀티프로세싱 운영체제(Multiprocessing Operating Systems)**
-  - 예시: Windows, Linux.
-  - 특징
+  - **예시**: **Windows, Linux**.
+  - **특징**
     - **여러 프로그램이 동시에 실행되는 환경을 지원**한다.
     - 여러 작업 또는 작업의 일부를 동시에 처리하여 처리량과 효율성을 높일 수 있다.
 
 ![multiprocessing-operating-systems](/assets/img/post/operating-system/multiprocessing-operating-systems.jpg){: width="450" }
 
 - **분산 운영체제(Distributed Operating Systems)**
-  - 예시: Google's Android, Apache Hadoop.
-  - 특징
+  - **예시**: Apache **Hadoop**.
+  - **특징**
     - **여러 독립적인 컴퓨터가 네트워크를 통해 연결되어 하나의 일관된 시스템처럼 작동**한다. 이러한 시스템은 처리 능력과 신뢰성을 높이기 위해 분산된 자원을 활용한다.
     - 네트워크에 더 많은 **노드를 추가하여 쉽게 확장**할 수 있다.
 
 ![distributed-operating-systems](/assets/img/post/operating-system/distributed-operating-systems.png){: width="600" }
 
 - **실시간 운영체제(Real-Time Operating Systems)**
-
-  - 예시: VxWorks, FreeRTOS.
-  - 특징
+  - **예시**: VxWorks, FreeRTOS.
+  - **특징**
     - **엄격한 시간 제약 조건을 만족시키는 것이 중요**한 응용 분야(예: 임베디드 시스템, 산업 제어 시스템)에서 사용된다.
     - 실시간 처리와 빠른 반응 시간이 요구된다.
   - **종류**
@@ -69,16 +68,16 @@ date: 2023-12-14 13:44 +0900
 ![real-time-operating-systems](/assets/img/post/operating-system/real-time-operating-systems.png){: width="600" }
 
 - **네트워크 운영체제(Network Operating Systems)**
-  - 예시: Novell NetWare, Windows Server.
-  - 특징:
+  - **예시**: Novell NetWare, Windows Server.
+  - **특징**
     - **네트워크 환경에서 자원을 공유하고 통신을 관리**한다.
     - 파일 서버, 프린터 서버 등의 네트워크 자원 관리에 적합하다.
 
 ![network-operating-system](/assets/img/post/operating-system/network-operating-system.png){: width="600" }
 
 - **모바일 운영체제(Mobile Operating Systems)**
-  - 예시: Android, iOS.
-  - 특징:
+  - **예시**: **Android, iOS**.
+  - **특징**
     - 스마트폰, 태블릿과 같은 **모바일 기기에 최적화**되어 있다.
     - 터치스크린 인터페이스, 에너지 효율성, 모바일 애플리케이션 지원에 중점을 둔다.
 
