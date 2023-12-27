@@ -4,7 +4,7 @@ title: OSI 모델, TCP/IP 모델
 tags: [네트워크, OSI 모델, TCP/IP 모델]
 categories: [네트워크, OSI 모델, TCP/IP 모델]
 image:
-  path: /assets/img/post/network/osi-and-tcp-ip.webp
+  path: /assets/img/post/network/osi-and-tcp-ip.png
   alt: osi-and-tcp
 date: 2023-12-27 23:09 +0900
 ---
