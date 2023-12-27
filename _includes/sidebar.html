@@ -45,15 +45,50 @@
         </li>
         <!-- .nav-item -->
       {% endfor %}
-      <li class="google_translate nav-item">
-        <div id="google_translate_element" class="nav-link"></div>
-          <script type="text/javascript">
-            function googleTranslateElementInit() {
-              new google.translate.TranslateElement({pageLanguage: 'ko', includedLanguages: 'en,ja,ko,zh-CN,zh-TW,hi', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+      <span class="language-support">
+        <div>Choose Your Language<div>
+        <span id="google_translate_element" style="display:none;"></span>
+        <!-- "새 번역 링크 UI" -->
+        <span class="flag-container translation-links">
+          <span class="language-flag"><img data-lang="ko" src='{{ "/assets/img/language/ko.png" | relative_url }}' alt="ko"></span>
+          <span class="language-flag"><img data-lang="en" src='{{ "/assets/img/language/en.png" | relative_url }}' alt="en"></span>
+          <span class="language-flag"><img data-lang="ja" src='{{ "/assets/img/language/ja.png" | relative_url }}' alt="ja"></span>
+          <span class="language-flag"><img data-lang="zh-CN" src='{{ "/assets/img/language/cn.png" | relative_url }}' alt="cn"></span>
+          <span class="language-flag"><img data-lang="zh-TW" src='{{ "/assets/img/language/tw.png" | relative_url }}' alt="tw"></span>
+          <span class="language-flag"><img data-lang="hi" src='{{ "/assets/img/language/hi.png" | relative_url }}' alt="hi"></span>
+        </span>
+      </span>
+      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script type="text/javascript">
+        /* 구글 번역 초기화 */
+        function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'ko',autoDisplay: true}, 'google_translate_element');}
+      </script>
+      <script type="text/javascript">
+        /* 새 UI 선택 클릭 이벤트가 발생하면
+            감춤 처리한 구글 번역 콤보리스트에
+            선택한 언어를 적용해 변경 이벤트를 발생시키는 코드  */
+        document.querySelector('.translation-links').addEventListener('click',function(event) {
+          let el = event.target;
+          console.log(el)
+          if(el != null){
+            while(el.nodeName == 'FONT'){el = el.parentElement;}//data-lang 속성이 있는 태그 찾기
+            const tolang = el.dataset.lang; // 변경할 언어 코드 얻기
+            const gtcombo = document.querySelector('.goog-te-combo');
+            if (gtcombo == null) {
+              alert("Error: Could not find Google translate Combolist.");
+              return false;
+            }
+            gtcombo.value = tolang; // 변경할 언어 적용
+            gtcombo.dispatchEvent(new Event('change')); // 변경 이벤트 트리거
           }
-          </script>
-      </li>
-      <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+          return false;
+        });
+      </script>
+      <!-- Add other flags similarly -->
+    </div>
+
+   
+    </script>
     </ul>
   </nav>
 

@@ -81,3 +81,38 @@
 .rotate {
   transform: rotate(-90deg);
 }
+
+.language-support {
+  margin-top: 1rem;
+}
+
+.language-support div {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 90%;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+
+.flag-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 15%;
+}
+
+.language-flag {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.language-flag:hover {
+  transform: scale(1.1);
+}
