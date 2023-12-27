@@ -65,9 +65,8 @@
       <script type="text/javascript">
         document.querySelector('.translation-links').addEventListener('click',function(event) {
           let el = event.target;
-          const tolang = el.dataset.lang; 
-          console.log(tolang)
-          const gtcombo = document.querySelector('.goog-te-combo');
+          let tolang = el.dataset.lang; 
+          let gtcombo = document.querySelector('.goog-te-combo');
           gtcombo.value = tolang; 
           gtcombo.dispatchEvent(new Event('change'));
           return false;
