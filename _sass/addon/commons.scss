@@ -732,8 +732,10 @@ $btn-mb: 0.5rem;
     @include mt-mb(2.5rem);
     @extend %clickable-transition;
 
-    padding-left: 2.5rem;
-    padding-right: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
 
@@ -816,11 +818,13 @@ $btn-mb: 0.5rem;
   }
 
   .sidebar-bottom {
-    padding-left: 2rem;
-    padding-right: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 17% !important;
     margin-bottom: 1.5rem;
 
-    $btn-size: 1.75rem;
+    $btn-size: 2rem;
 
     %button {
       width: $btn-size;
@@ -845,9 +849,9 @@ $btn-mb: 0.5rem;
       @extend %sidebar-link-hover;
       @extend %clickable-transition;
 
-      &:not(:last-child) {
-        margin-right: $sb-btn-gap;
-      }
+      // &:not(:last-child) {
+      //   margin-right: $sb-btn-gap;
+      // }
     }
 
     i {
@@ -1512,7 +1516,6 @@ search {
     .profile-wrapper {
       margin-top: 3.5rem;
       margin-bottom: 2.5rem;
-      padding-left: 3.5rem;
     }
 
     ul {
