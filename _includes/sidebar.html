@@ -61,20 +61,42 @@
             <span class="language-flag"><img data-lang="hi" src='{{ "/assets/img/language/hi.png" | relative_url }}' alt="hi"></span>
           </span>
       </span>
-      <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-      <script type="text/javascript">
-        function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'ko',autoDisplay: true}, 'google_translate_element');}
-      </script>
-      <script type="text/javascript">
-        document.querySelector('.translation-links').addEventListener('click',function(event) {
-          let el = event.target;
-          let tolang = el.dataset.lang; 
-          let gtcombo = document.querySelector('.goog-te-combo');
-          gtcombo.value = tolang; 
-          gtcombo.dispatchEvent(new Event('change'));
-          return false;
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'ko',
+                includedLanguages: 'ko,en,ja,zh-CN,zh-TW,hi',
+                autoDisplay: true
+            }, 'google_translate_element');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const translationLinks = document.querySelector('.translation-links');
+            
+            if (translationLinks) {
+                translationLinks.addEventListener('click', function(event) {
+                    const clickedElement = event.target;
+                    
+                    if (clickedElement.tagName === 'IMG' && clickedElement.dataset.lang) {
+                        const targetLanguage = clickedElement.dataset.lang;
+                        const googleTranslateCombo = document.querySelector('.goog-te-combo');
+                        
+                        if (googleTranslateCombo) {
+                          if (targetLanguage === 'ko') {
+                              window.location.reload(); 
+                          } else {
+                              googleTranslateCombo.value = targetLanguage;
+                              googleTranslateCombo.dispatchEvent(new Event('change'));
+                          }
+                      }
+                    }
+                    event.preventDefault();
+                });
+            }
         });
-      </script>
+    </script>
+
     </li>
     </ul>
   </nav>
