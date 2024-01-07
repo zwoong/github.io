@@ -83,13 +83,9 @@
                         const googleTranslateCombo = document.querySelector('.goog-te-combo');
                         
                         if (googleTranslateCombo) {
-                          if (targetLanguage === 'ko') {
-                              window.location.reload(); 
-                          } else {
-                              googleTranslateCombo.value = targetLanguage;
-                              googleTranslateCombo.dispatchEvent(new Event('change'));
-                          }
-                      }
+                            googleTranslateCombo.value = targetLanguage;
+                            googleTranslateCombo.dispatchEvent(new Event('change'));
+                        }
                     }
                     event.preventDefault();
                 });
