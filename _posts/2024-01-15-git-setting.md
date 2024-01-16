@@ -71,6 +71,15 @@ git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 ```
 
+- **설정 확인**
+
+```console
+git config --list
+
+user.name=Your Name
+user.email=your_email@example.com
+```
+
 #### Git에서는 인증과 커밋 추적이 별도로 처리된다.❗️
 
 - **인증(토큰/키)**
