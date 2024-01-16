@@ -55,4 +55,4 @@ Big-O 표기법은 **알고리즘의 시간 복잡도 또는 공간 복잡도를
   - **입력 크기가 계승적으로 증가**한다.
   - **예시**: 무차별 검색을 통해 여행하는 외판원 문제 해결. 여기에는 'n' 도시를 방문하는 가능한 모든 순서를 확인하는 작업이 포함되며, 이는 'n'에 따라 계승적으로 증가한다.
 
-![big-o](/assets/img/post/algorithm/big-o.jpeg){: width=＂800＂ }
+![big-o](/assets/img/post/algorithm/big-o.jpeg){: width="700＂ }
