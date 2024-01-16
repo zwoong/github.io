@@ -92,7 +92,7 @@ IP 주소와 서브넷 마스크를 사용하여 네트워크 ID와 사용할 �
 
 > 그렇다면 내 컴퓨터에 IP와 서브넷 마스크를 확인해 보자. 😉
 
-```shell
+```console
 ifconfig
 
 en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
