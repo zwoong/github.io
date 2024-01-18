@@ -111,7 +111,7 @@ g.add_edge(3, 4)
 g.add_edge(4, 1)
 
 print("Graph edges:")
-g.show_edges()
+g.show_edges() # Output : (1, 2) (1, 3) (2, 3) (3, 4) (4, 1)
 ```
 
 ![tree-graph](/assets/img/post/algorithm/tree-graph.jpg){: width="700＂ }
@@ -150,10 +150,21 @@ def add_row(table, row):
 
 print("Original Table:")
 print_table(table)
+# Name | Age | City
+# ---------------------
+# Alice | 30 | New York
+# Bob | 25 | Los Angeles
+# Charlie | 35 | Chicago
 
 add_row(table, {"Name": "Diana", "Age": 28, "City": "Boston"})
 print("\nTable after adding a new row:")
 print_table(table)
+# Name | Age | City
+# ---------------------
+# Alice | 30 | New York
+# Bob | 25 | Los Angeles
+# Charlie | 35 | Chicago
+# Diana | 28 | Boston
 ```
 
 ### Sets(집합)
@@ -171,18 +182,23 @@ print_table(table)
 ```python
 fruits = {"apple", "banana", "cherry"}
 print("Original Set:", fruits)
+# Output : {'banana', 'apple', 'cherry'}
 
 # Adding an element
 fruits.add("orange")
 print("After adding an element:", fruits)
+# Output : {'orange', 'banana', 'apple', 'cherry'}
 
 fruits.remove("banana")
 print("After removing an element:", fruits)
+# Output : {'orange', 'apple', 'cherry'}
 
 if "apple" in fruits:
     print("Apple is in the set")
 
 other_fruits = {"berry", "cherry", "dragonfruit"}
 print("Union:", fruits.union(other_fruits))
+# Output : {'cherry', 'dragonfruit', 'orange', 'apple', 'berry'}
 print("Intersection:", fruits.intersection(other_fruits))
+# Output : {'cherry'}
 ```
