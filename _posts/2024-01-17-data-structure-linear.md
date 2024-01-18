@@ -112,14 +112,14 @@ llist.append(4)
 
 # Output the list
 print("Linked List:")
-llist.print_list()
+llist.print_list() # Output : 3 -> 4 -> None
 
 # Deleting an element
 llist.delete_node(3)
 
 # Output the list after deletion
 print("\nLinked List after deleting 3:")
-llist.print_list()
+llist.print_list() # Output : 4 -> None
 ```
 
 #### Stack(스택)
