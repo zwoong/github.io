@@ -40,25 +40,25 @@ date: 2024-01-22 10:30 +0900
 
 ```python
 def bubble_sort(arr):
-    n = len(arr)
+  n = len(arr)
 
-    # Traverse through all array elements
-    for i in range(n-1):
-        # Flag to check if any swap is made
-        swapped = False
+  # Traverse through all array elements
+  for i in range(n-1):
+    # Flag to check if any swap is made
+    swapped = False
 
-        # Last i elements are already in place, no need to check them
-        for j in range(0, n-i-1):
+    # Last i elements are already in place, no need to check them
+    for j in range(0, n-i-1):
 
-            # Traverse the array from 0 to n-i-1
-            # Swap if the element found is greater than the next element
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
-                swapped = True
+      # Traverse the array from 0 to n-i-1
+      # Swap if the element found is greater than the next element
+      if arr[j] > arr[j+1]:
+        arr[j], arr[j+1] = arr[j+1], arr[j]
+        swapped = True
 
-        # If no two elements were swapped in inner loop, the array is sorted
-        if not swapped:
-            break
+    # If no two elements were swapped in inner loop, the array is sorted
+    if not swapped:
+      break
 
 example_array = [10, 7, 8, 9, 1, 5]
 bubble_sort(example_array)
