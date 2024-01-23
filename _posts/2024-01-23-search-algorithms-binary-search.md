@@ -76,18 +76,18 @@ print("Element found at index:" if result != -1 else "Element not found.", resul
 
 ```python
 def binary_search_recursive(arr, target, low, high):
-    if high >= low:
-        mid = (low + high) // 2
-        guess = arr[mid]
+  if high >= low:
+    mid = (low + high) // 2
+    guess = arr[mid]
 
-        if guess == target:
-            return mid  # Target found
-        elif guess > target:
-            return binary_search_recursive(arr, target, low, mid - 1)  # Target is in the left half
-        else:
-            return binary_search_recursive(arr, target, mid + 1, high)  # Target is in the right half
+    if guess == target:
+      return mid  # Target found
+    elif guess > target:
+      return binary_search_recursive(arr, target, low, mid - 1)  # Target is in the left half
     else:
-        return -1  # Target not found
+      return binary_search_recursive(arr, target, mid + 1, high)  # Target is in the right half
+  else:
+    return -1  # Target not found
 
 arr = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 target = 13
