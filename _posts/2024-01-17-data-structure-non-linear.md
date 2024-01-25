@@ -74,6 +74,39 @@ print("Inorder traversal of the given tree:")
 root.inorder_traversal() # Output: 20 30 40 50 60 70 80
 ```
 
+#### 트리의 종류
+
+- **이진 트리(Binary Tree)**
+  - 각 노드에 **왼쪽과 오른쪽 최대 2개의 자식이 있는 트리**이다. 이는 기본 트리 구조이며 더욱 구체적인 유형의 트리에 대한 기초 역할을 한다.
+  - **사용 사례**: 트리 기반 데이터 구조의 기본 구현
+
+![binary-tree](/assets/img/post/algorithm/binary-tree.png){: width=＂500＂ }
+
+- **이진 검색 트리(Binary Search Tree)**
+  - **왼쪽 자식에는 부모 노드보다 작은 값을 가진 노드만 포함되고 오른쪽 자식에는 부모 노드보다 큰 값을 가진 노드만 포함되는 이진 트리**이다.
+  - **사용 사례**: 평균 O(log n) 시간 내에 검색, 삽입, 삭제 작업을 효율적으로 지원한다.
+
+![binary-search-tree](/assets/img/post/algorithm/binary-search-tree.png){: width=＂500＂ }
+
+- **AVL 트리**
+  - 발명자의 이름인 Adelson-Velsky and Landis에서 따온 이름
+  - **임의 노드의 두 하위 하위 트리 높이가 최대 1만큼 다른 자체 균형 이진 검색 트리**이다.
+  - **사용 사례**: 수정 시 자동으로 균형을 유지하여 O(log n) 검색, 삽입 및 삭제 작업을 유지한다.
+
+![avl-tree](/assets/img/post/algorithm/avl-tree.png){: width=＂600＂ }
+
+- **Red-Black 트리**
+  - 각 노드에 추가 속성인 색상(빨간색 또는 검은색)이 있는 자체 균형 이진 검색 트리이다. 트리는 일련의 규칙과 회전을 통해 균형을 유지한다.
+  - **사용 사례**: 삽입, 삭제 및 검색에 O(log n) 시간 복잡성을 제공하여 균형 잡힌 트리를 보장한다. **많은 표준 라이브러리의 데이터 구조에 사용**된다.
+
+![red-black-tree](/assets/img/post/algorithm/red-black-tree.png){: width=＂500＂ }
+
+- **B-트리**
+  - 정렬된 데이터를 유지하고 로그 시간 내에 검색, 순차적 액세스, 삽입 및 삭제를 허용하는 자체 균형 트리 데이터 구조이다. 노드에는 2개 이상의 자식이 있을 수 있다.
+  - **사용 사례**: 디스크에서 데이터를 효율적으로 읽고 써야 하는 **인덱싱을 위해 데이터베이스 및 파일 시스템에서 일반적으로 사용**된다.
+
+![b-tree](/assets/img/post/algorithm/b-tree.png){: width=＂500＂ }
+
 ### Graphs(그래프)
 
 그래프는 **가장자리로 연결된 노드(정점) 네트워크를 나타내는 데 사용**되며, 소셜 네트워크, 컴퓨터 네트워크, 교통 시스템과 같은 다양한 실제 구조를 모델링할 수 있다.
