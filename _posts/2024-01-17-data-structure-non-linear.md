@@ -116,6 +116,48 @@ g.show_edges() # Output : (1, 2) (1, 3) (2, 3) (3, 4) (4, 1)
 
 ![tree-graph](/assets/img/post/algorithm/tree-graph.jpg){: width="700＂ }
 
+#### 그래프의 종류
+
+- **방향 그래프(Directed Graph)**
+  - **간선에 방향이 있다.**
+  - 정점 A에서 정점 B까지의 가장자리가 있는 경우(A -> B) A에서 B로 이동할 수 있지만 B에서 A로 이동할 수는 없다.
+  - **사용 사례**: 웹 페이지 링크 또는 코스 예약의 전제 조건과 같이 관계가 단방향인 시나리오에 사용된다.
+
+![directed-graph](/assets/img/post/algorithm/directed-graph.png){: width=＂500＂ }
+
+- **무방향 그래프(Undirected Graph)**
+  - **간선에 방향이 없다.**
+  - 정점 A와 정점 B 사이에 가장자리가 있는 경우 A에서 B로, B에서 A로 제한 없이 이동할 수 있다.
+  - **사용 사례**: 소셜 네트워크의 팔로워나 지도의 도로 연결과 같은 양방향 관계를 모델링하는 데 사용된다.
+
+![undirected-graph](/assets/img/post/algorithm/undirected-graph.png){: width=＂500＂ }
+
+- **가중 그래프(Weighted Graph)**
+  - **각 모서리에는 가중치 또는 비용이 있다.**
+  - 가중치는 **거리, 비용 또는 문제와 관련된 측정항목**을 나타낼 수 있습니다.
+  - **사용 사례**: 가장자리는 도로를 나타내고 무게는 거리 또는 이동 시간을 나타내는 도로 네트워크에서 **최단 경로를 찾는 문제에서 일반적으로 사용**된다.
+
+![weighted-graph](/assets/img/post/algorithm/weighted-graph.png){: width=＂500＂ }
+
+- **방향성 비순환 그래프(Directed Acyclic Graph)**
+  - **순환이 없는 유향 그래프이다.**
+  - 정점 v에서 시작하여 v로 다시 루프백되는 방법이 없음을 의미한다.
+  - **사용 사례**: 작업 예약과 같은 종속성이 있는 구조를 표현하고 **버전 제어 기록과 같은 시나리오에서 유용**하다.
+
+![directed-acyclic-graph](/assets/img/post/algorithm/directed-acyclic-graph.png){: width=＂500＂ }
+
+- **완전 그래프(Complete Graph)**
+  - **서로 다른 정점의 모든 쌍이 연결**된 그래프이다.
+  - **사용 사례**: 이론적 그래프 연구 및 모든 위치(정점)가 다른 모든 위치에 연결되는 여행하는 외판원 같은 문제에 자주 사용된다.
+
+![complete-graph](/assets/img/post/algorithm/complete-graph.png){: width=＂600＂ }
+
+- **이분 그래프(Bipartite Graph)**
+  - 모든 모서리가 한 세트의 꼭지점을 다른 세트의 꼭지점에 연결하도록 꼭지점을 두 개의 분리되고 독립적인 세트로 나눌 수 있는 그래프이다.
+  - **사용 사례**: 작업 할당 문제, 일치 문제 등 **서로 다른 두 개체 클래스 간의 관계를 모델링하는 데 사용**된다.
+
+![bipartite-graph](/assets/img/post/algorithm/bipartite-graph.png){: width=＂500＂ }
+
 ### Tables(테이블)
 
 테이블은 **데이터베이스 및 데이터 저장과 관련하여 널리 사용되는 데이터 구조**이다. 프로그래밍에서 테이블은 일반적으로 행과 열로 구성된 데이터의 구조화된 배열로 생각할 수 있으며, 쉽게 조작하고 접근할 수 있다.
