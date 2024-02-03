@@ -1,8 +1,8 @@
 ---
 layout: post
-title: node.js vs python vs java
-tags: [Research, node.js vs python vs java]
-categories: [Research, node.js vs python vs java]
+title: Node.js vs Python vs Java
+tags: [Research, Node.js vs Python vs Java]
+categories: [Research, Node.js vs Python vs Java]
 image:
   path: /assets/img/post/research/node-python-java.png
   alt: node-python-java
