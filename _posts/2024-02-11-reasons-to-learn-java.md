@@ -1,10 +1,10 @@
 ---
 layout: post
 title: 자바를 배우려는 이유
-tags: [JAVA, 자바를 배우려는 이유]
-categories: [JAVA, 자바를 배우려는 이유]
+tags: [zwoong, 자바를 배우려는 이유]
+categories: [zwoong, 자바를 배우려는 이유]
 image:
-  path: /assets/img/post/java/java.png
+  path: /assets/img/post/zwoong/java.png
   alt: java
 date: 2024-02-11 01:42 +0900
 ---
@@ -48,8 +48,8 @@ public class Main {
   - Java는 **내장된 멀티스레딩 기능을 지원**하며, synchronized 키워드, volatile 변수, Thread 클래스, ExecutorService 같은 도구를 통해 **복잡한 동시성과 병렬 처리 작업을 용이**하게 한다. 이는 CPU를 효율적으로 사용하고, 고성능을 요구하는 애플리케이션에서 중요한 이점을 제공한다.
   - JavaScript는 단일 스레드 모델을 사용하며, 비동기 처리를 위해 콜백 함수, 프로미스, async/await 등을 사용한다. 이는 **I/O 중심의 작업에서 효율적이지만, CPU 집약적 작업에서는 한계**를 가질 수 있다.
 
-![java-node-cpu](/assets/img/post/java/java-node-cpu.png){: width=＂500＂ }
-![java-node-io](/assets/img/post/java/java-node-io.png){: width=＂500＂ }
+![java-node-cpu](/assets/img/post/zwoong/java-node-cpu.png){: width=＂500＂ }
+![java-node-io](/assets/img/post/zwoong/java-node-io.png){: width=＂500＂ }
 
 - **표준 라이브러리와 프레임워크**
   - Java는 **풍부한 표준 라이브러리와 다양한 업계 표준 프레임워크를 제공**한다. 예를 들어, Spring Framework는 보안, 트랜잭션 관리, RESTful 서비스 구현 등을 포함한 복잡한 엔터프라이즈 애플리케이션 개발을 위한 포괄적인 솔루션을 제공한다.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome To My World 🌏
-tags: [블로그를 시작한 이유]
+tags: [zwoong, 블로그를 시작한 이유]
 categories: [zwoong, 블로그를 시작한 이유]
 image:
   path: /assets/img/post/zwoong/start_blog.jpg
