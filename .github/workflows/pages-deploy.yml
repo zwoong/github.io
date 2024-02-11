@@ -37,11 +37,9 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v4 # 업데이트된 버전을 사용
+        uses: actions/configure-pages@v3
         with:
-          site-directory: "_site" # 업데이트된 버전에서는 site-directory 옵션 사용
-          jekyll-build-command: "bundle exec jekyll b" # 업데이트된 버전에서는 jekyll-build-command 옵션 사용
-          jekyll-env: "production" # 업데이트된 버전에서는 jekyll-env 옵션 사용
+          node-version: 20
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -50,9 +48,9 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: ${{ steps.pages.outputs.jekyll-build-command }} # 업데이트된 버전에서는 jekyll-build-command 출력을 사용
+        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
-          JEKYLL_ENV: ${{ steps.pages.outputs.jekyll-env }} # 업데이트된 버전에서는 jekyll-env 출력을 사용
+          JEKYLL_ENV: "production"
 
       - name: Test site
         run: |
@@ -63,7 +61,7 @@ jobs:
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: "_site${{ steps.pages.outputs.base-path }}" # 업데이트된 버전에서는 base-path 출력을 사용
+          path: "_site${{ steps.pages.outputs.base_path }}"
 
   deploy:
     environment:
