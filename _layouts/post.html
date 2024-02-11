@@ -53,11 +53,13 @@ tail_includes:
           site.data.locales[lang].post.written_by }}
 
           <em>
-            {% if authors %} {% for author in authors %}
+            {% if authors %} {% for author in authors %} {% if
+            site.data.authors[author].url -%}
             <a href="{{ site.data.authors[author].url }}"
               >{{ site.data.authors[author].name }}</a
             >
-            {% unless forloop.last %}{{ '</em
+            {%- else -%} {{ site.data.authors[author].name }} {%- endif %} {%
+            unless forloop.last %}{{ '</em
           >,
           <em
             >' }}{% endunless %} {% endfor %} {% else %}
