@@ -21,4 +21,4 @@ package-lock.json
 .DS_Store
 *.map
 sw.min.js
-assets/js/dist
+# assets/js/dist

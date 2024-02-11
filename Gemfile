@@ -24,4 +24,3 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'jekyll-sitemap'
-gem 'thin' 
