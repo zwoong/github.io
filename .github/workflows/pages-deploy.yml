@@ -32,14 +32,12 @@ jobs:
         with:
           fetch-depth: 0
           # submodules: true
-          # If 'assets' git submodule from Chirpy Starter, uncomment above
+          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Pages
         id: pages
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: 3.1.422
+        uses: actions/configure-pages@v3
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
