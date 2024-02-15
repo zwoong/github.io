@@ -1,8 +1,8 @@
 ---
 layout: post
-title: WebSocket이란?
-tags: [Research, WebSocket, WebSocket이란?]
-categories: [Research, WebSocket, WebSocket이란?]
+title: WebSocket이란
+tags: [Research, WebSocket, WebSocket이란]
+categories: [Research, WebSocket, WebSocket이란]
 image:
   path: /assets/img/post/research/websocket.png
   alt: websocket
