@@ -78,14 +78,10 @@ async function run() {
   // Navigate the page to a URL
   await page.goto("https://www.mcdonalds.co.kr/kor/menu/list.do");
 
-  /* 
-    $$eval 
-    - 페이지 내에서 Array.from(document.querySelectorAll(selector))을 실행하고 
-    그 결과를 pageFunction에 첫 번째 인수로 전달
-  */
+  const burgers = await page.evaluate(() => {
+    const anchors = Array.from(document.querySelectorAll(".menuList li a"));
 
-  const burgers = await page.$$eval(".menuList li a", (anchors) =>
-    anchors.map((anchor) => {
+    return anchors.map((anchor) => {
       const nameKO =
         anchor.querySelector(".thumb .ko")?.innerText || "No Name KO";
       const nameEN =
@@ -93,8 +89,8 @@ async function run() {
       const image = anchor.querySelector(".thum img");
       const imageUrl = image ? image.src : "No Image";
       return { nameKO, nameEN, imageUrl };
-    })
-  );
+    });
+  });
 
   console.log(burgers);
 
