@@ -6,7 +6,7 @@ categories: [Research, Puppeteer란]
 image:
   path: /assets/img/post/research/puppeteer.jpeg
   alt: puppeteer
-date: 2024-02-16 10:30 +0900
+date: 2024-02-17 20:30 +0900
 ---
 
 ## puppeteer
