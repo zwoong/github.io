@@ -63,7 +63,7 @@ npm i puppeteer
 yarn add puppeteer
 ```
 
-**예제 코드**
+### 예제 코드
 
 ```js
 import puppeteer from "puppeteer";
