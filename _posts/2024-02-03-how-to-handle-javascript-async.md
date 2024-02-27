@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 자바스크립트 비동기 처리 방법
-tags: [Research, javascript, 자바스크립트 비동기 처리 방법]
-categories: [Research, javascript, 자바스크립트 비동기 처리 방법]
+tags: [Research, Javascript, 자바스크립트 비동기 처리 방법]
+categories: [Research, Javascript, 자바스크립트 비동기 처리 방법]
 image:
   path: /assets/img/post/research/how-to-handle-javascript-async.webp
   alt: how-to-handle-javascript-async
