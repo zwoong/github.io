@@ -1,8 +1,8 @@
 ---
 layout: post
 title: List, Map, Set의 차이점
-tags: [Research, List, Map, Set의 차이점]
-categories: [Research, List, Map, Set의 차이점]
+tags: [Research, "List, Map, Set의 차이점"]
+categories: [Research, "List, Map, Set의 차이점"]
 image:
   path: /assets/img/post/research/list-map-set.png
   alt: list-map-set
