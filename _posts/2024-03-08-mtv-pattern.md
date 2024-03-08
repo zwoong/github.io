@@ -56,11 +56,6 @@ class Post(models.Model):
   </head>
   <body>
     <h1>Blog Posts</h1>
-    <ul>
-      <!-- {% for post in posts %}
-      <li>{{ post.title }} - {{ post.content }}</li>
-      {% endfor %} -->
-    </ul>
   </body>
 </html>
 ```
