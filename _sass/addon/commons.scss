@@ -369,7 +369,6 @@ main {
 
   h1 {
     margin-top: 2rem;
-    margin-bottom: 1.5rem;
   }
 
   p {
@@ -572,6 +571,13 @@ main {
     margin: auto;
     margin-bottom: 0;
   }
+
+  @extend %img-caption;
+}
+
+.embed-audio {
+  width: 100%;
+  display: block;
 
   @extend %img-caption;
 }
